@@ -79,4 +79,9 @@ body{
     font-weight: 700;
     font-size: 48px;
     color: var(--branco-principal);    
+    margim-bottom: 0, 1em;
+}
+
+.descriçao_texto{
+    color: var(--cinza-secundario);
 }
