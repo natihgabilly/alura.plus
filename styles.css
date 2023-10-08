@@ -3,11 +3,15 @@
     --cinza-secundario: #9F9A9A;
     --botao-azul: #167BF7;
     --cor-de-fundo: #040814;
+    --fonte-principal: inter;
 }
 
 body{
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
 
 *{
@@ -33,8 +37,14 @@ body{
     padding: 1em;
     color: var(--branco-principal);
     display: block;
+    text-decoration: none;
 }
 
 .botao_secundario{
     background-color: transparent;
+}
+
+.container_aviso{
+    font-size: 12px;
+    color: var(--cinza-secundario)
 }
