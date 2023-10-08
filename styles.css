@@ -115,3 +115,20 @@ body{
     font-size: 32px;
     color: var(--branco-principal);
 }
+
+.rodape{
+    text-align: center;
+    margin: 0 3em;
+}
+
+.rodape_logo{
+    margin-bottom: 2em;
+}
+
+.lista_link a:hover{
+    color: var(--botao-azul);
+}
+
+.lista_link a:active{
+    color: purple;
+}
